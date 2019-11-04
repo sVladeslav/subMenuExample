@@ -1,0 +1,42 @@
+body{
+    width: 1270px;
+    margin: 20px 20px 0;
+}
+
+ul{
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+li{
+    display: inline;
+    padding: 10px 30px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #42855D;
+    background-color: #4C996B;
+}
+
+li:hover{
+    background-color: #3E7F58;
+}
+
+
+.paragraph{
+    margin-top: 40px;
+}
+
+.categories{
+    display:none;
+    position: relative;
+}
+
+li:hover>.categories{
+    display: list-item;
+
+    position:static;
+
+    top: 31px;
+
+}
