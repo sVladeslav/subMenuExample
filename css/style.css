@@ -1,6 +1,14 @@
+@import 'reset.css';
+
+
 body{
     width: 1270px;
     margin: 20px 20px 0;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 24px;
 }
 
 .menuContainer{
@@ -12,34 +20,31 @@ body{
     text-align: center;
     font-size: 20px;
     width: 200px;
-    padding: 10px 0;
-    background-color: cornflowerblue;
-    border: 1px solid dodgerblue;
+    padding: 20px 0;
+    background-color: #4C996B;
+    border: 1px solid #3F8059;
     position: relative;
 }
 
 .menuItem:hover{
-    background-color: dodgerblue;
+    background-color: #3F8059;
 }
 
-.categories{
+.dropMenu{
     display: none;
     position: absolute;
+}
+
+.dropDownMenu{
     top:100%;
     right: 0px;
 }
 
-.menuItem:hover>.categories{
-    display: block;
-}
-
-.subMenu{
-    display:none;
-    position: absolute;
+.dropRightMenu{
     top: 0px;
     left:100%;
 }
 
-.menuItem:hover>.subMenu {
+.menuItem:hover>.dropMenu{
     display: block;
 }
